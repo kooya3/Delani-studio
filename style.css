@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+
+.overlay > img, .h-text {
+    position: relative;
+    top: 33%;
+}
+.h-text{
+    font-family: 'Comfortaa', cursive;
+}
+.smaller-text{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.overlay > img, .welcome {
+    margin-bottom: 30px;
+}
+
+.click {
+    margin-top: 330px;
+}
+
+.jumbotron-fluid {
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 668px;
