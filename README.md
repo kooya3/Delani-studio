@@ -2,7 +2,7 @@
 This website is a subsidiary of Delani Studio. It's been made by implementing jQuery, bootstrap, Html, Css and Sass components.*
 #### Delani-Studio is a blog start-up. Their portfolio allows you to subscribe to their newsletters and updates on whats latest.*~~~~
 
-![](https://i.pinimg.com/474x/71/92/99/71929914fad8edd4206dea46105b51dd.jpg)
+
 
 
 **Table of Contents**
