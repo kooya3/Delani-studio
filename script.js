@@ -9,7 +9,7 @@ $(function () {
     $(desp).hide();
     $(devp).hide();
     $(prop).hide();
-  //Show paragraph content
+ 
     $('.des').on('click', function () {
         $('.des').slideUp('slow');
         $(desp).show(500);
@@ -27,7 +27,6 @@ $(function () {
         $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
 
-    //Hide paragraph content
     $(desp, destext).on('click', function () {
         $('.des').slideDown();
         $(desp).hide(500);
@@ -36,7 +35,7 @@ $(function () {
     $(devp, devtext).on('click', function () {
         $('.dev').slideDown();
         $(devp).hide(500);
-        $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
+        $(devtext).animate({fontWeight:'normal',fontSize:'17px'})
     });
     $(prop, protext).on('click', function () {
         $('.pro').slideDown();
@@ -44,7 +43,7 @@ $(function () {
         $(protext).animate({fontWeight:'normal',fontSize:'16px'})
     })
 
-    //Overlay images
+
 
     $('.portimg').hover(function(){
         $('.porttext',this).slideToggle('slow');
@@ -53,7 +52,7 @@ $(function () {
      });
 
 
-    //Form Validation
+
         $("form#form").on('submit',function(event){
             event.preventDefault();
             let name = $("input#name").val();
@@ -65,6 +64,8 @@ $(function () {
             }
             else {
                 alert("Please provide your correct name and email!");
+                prompt("Do you want weekly newletters?")
+        
             }
 
         });
